@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C323B7324912F0A00FBD1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B7224912F0A00FBD1B2 /* AppDelegate.swift */; };
+		9C323B7724912F0A00FBD1B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B7624912F0A00FBD1B2 /* ViewController.swift */; };
+		9C323B7C24912F0B00FBD1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C323B7B24912F0B00FBD1B2 /* Assets.xcassets */; };
+		9C323B7F24912F0B00FBD1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C323B7D24912F0B00FBD1B2 /* LaunchScreen.storyboard */; };
+		9C323B872491302600FBD1B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B862491302600FBD1B2 /* SceneDelegate.swift */; };
+		9C323B9E2491426500FBD1B2 /* ClientAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B9D2491426500FBD1B2 /* ClientAppearance.swift */; };
+		9C323BA12491438900FBD1B2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323BA02491438900FBD1B2 /* Assets.swift */; };
+		9C323BAB24914B7600FBD1B2 /* KYCExpert-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C323BAA24914B7600FBD1B2 /* KYCExpert-Info.plist */; };
+		9CD56ADC2494E94000BC7CEC /* Kagii-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CD56ADB2494E94000BC7CEC /* Kagii-Info.plist */; };
+		BB9AA4186F66E8D932202F74 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BB9AAC6B4A8395DF1B80DC9B /* .gitignore */; };
+		C0862AB52493DD12003A44B7 /* KYCExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09C33F2493C72400061D87 /* KYCExpert.framework */; };
+		C0862AB82493DD13003A44B7 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09C33E2493C72400061D87 /* PhoneNumberKit.framework */; };
+		C0862ABA2493DD16003A44B7 /* Kagii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09C3402493C72400061D87 /* Kagii.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C09C33E2493C72400061D87 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneNumberKit.framework; path = Carthage/Build/iOS/PhoneNumberKit.framework; sourceTree = "<group>"; };
+		9C09C33F2493C72400061D87 /* KYCExpert.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KYCExpert.framework; path = Carthage/Build/iOS/KYCExpert.framework; sourceTree = "<group>"; };
+		9C09C3402493C72400061D87 /* Kagii.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kagii.framework; path = Carthage/Build/iOS/Kagii.framework; sourceTree = "<group>"; };
+		9C323B6F24912F0A00FBD1B2 /* KagiiKYCIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KagiiKYCIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C323B7224912F0A00FBD1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C323B7624912F0A00FBD1B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C323B7B24912F0B00FBD1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C323B7E24912F0B00FBD1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C323B8024912F0B00FBD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C323B862491302600FBD1B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C323B9D2491426500FBD1B2 /* ClientAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAppearance.swift; sourceTree = "<group>"; };
+		9C323BA02491438900FBD1B2 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		9C323BAA24914B7600FBD1B2 /* KYCExpert-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KYCExpert-Info.plist"; sourceTree = "<group>"; };
+		9CD56ADB2494E94000BC7CEC /* Kagii-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kagii-Info.plist"; sourceTree = "<group>"; };
+		BB9AAC6B4A8395DF1B80DC9B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C323B6C24912F0A00FBD1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0862AB82493DD13003A44B7 /* PhoneNumberKit.framework in Frameworks */,
+				C0862ABA2493DD16003A44B7 /* Kagii.framework in Frameworks */,
+				C0862AB52493DD12003A44B7 /* KYCExpert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C323B6624912F0A00FBD1B2 = {
+			isa = PBXGroup;
+			children = (
+				9C323B7124912F0A00FBD1B2 /* KagiiKYCIntegration */,
+				9C323B7024912F0A00FBD1B2 /* Products */,
+				9C323B8924913BF700FBD1B2 /* Frameworks */,
+				BB9AAC6B4A8395DF1B80DC9B /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		9C323B7024912F0A00FBD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C323B6F24912F0A00FBD1B2 /* KagiiKYCIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C323B7124912F0A00FBD1B2 /* KagiiKYCIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				9C323B7224912F0A00FBD1B2 /* AppDelegate.swift */,
+				9C323B862491302600FBD1B2 /* SceneDelegate.swift */,
+				9C323B7624912F0A00FBD1B2 /* ViewController.swift */,
+				9C323BA5249143C500FBD1B2 /* Utils */,
+				9C323BA22491439A00FBD1B2 /* SupportingFiles */,
+			);
+			path = KagiiKYCIntegration;
+			sourceTree = "<group>";
+		};
+		9C323B8924913BF700FBD1B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C09C3402493C72400061D87 /* Kagii.framework */,
+				9C09C33F2493C72400061D87 /* KYCExpert.framework */,
+				9C09C33E2493C72400061D87 /* PhoneNumberKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C323BA22491439A00FBD1B2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9CD56ADB2494E94000BC7CEC /* Kagii-Info.plist */,
+				9C323BAA24914B7600FBD1B2 /* KYCExpert-Info.plist */,
+				9C323B7B24912F0B00FBD1B2 /* Assets.xcassets */,
+				9C323B7D24912F0B00FBD1B2 /* LaunchScreen.storyboard */,
+				9C323B8024912F0B00FBD1B2 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9C323BA5249143C500FBD1B2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C323BA02491438900FBD1B2 /* Assets.swift */,
+				9C323B9D2491426500FBD1B2 /* ClientAppearance.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C323B6E24912F0A00FBD1B2 /* KagiiKYCIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C323B8324912F0B00FBD1B2 /* Build configuration list for PBXNativeTarget "KagiiKYCIntegration" */;
+			buildPhases = (
+				9C323B9F249142F300FBD1B2 /* SwiftGen */,
+				9C323B6B24912F0A00FBD1B2 /* Sources */,
+				9C323B6C24912F0A00FBD1B2 /* Frameworks */,
+				9C323B6D24912F0A00FBD1B2 /* Resources */,
+				9C323B882491338F00FBD1B2 /* Carthage Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KagiiKYCIntegration;
+			productName = KagiiKYCIntegration;
+			productReference = 9C323B6F24912F0A00FBD1B2 /* KagiiKYCIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C323B6724912F0A00FBD1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sedicii Innovations Limited";
+				TargetAttributes = {
+					9C323B6E24912F0A00FBD1B2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9C323B6A24912F0A00FBD1B2 /* Build configuration list for PBXProject "KagiiKYCIntegration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C323B6624912F0A00FBD1B2;
+			productRefGroup = 9C323B7024912F0A00FBD1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C323B6E24912F0A00FBD1B2 /* KagiiKYCIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C323B6D24912F0A00FBD1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C323B7F24912F0B00FBD1B2 /* LaunchScreen.storyboard in Resources */,
+				9C323B7C24912F0B00FBD1B2 /* Assets.xcassets in Resources */,
+				9C323BAB24914B7600FBD1B2 /* KYCExpert-Info.plist in Resources */,
+				9CD56ADC2494E94000BC7CEC /* Kagii-Info.plist in Resources */,
+				BB9AA4186F66E8D932202F74 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C323B882491338F00FBD1B2 /* Carthage Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PhoneNumberKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KYCExpert.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kagii.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SediciiCoreSDK.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SediciiZkpSDK.framework",
+			);
+			name = "Carthage Copy Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		9C323B9F249142F300FBD1B2 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C323B6B24912F0A00FBD1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C323B7724912F0A00FBD1B2 /* ViewController.swift in Sources */,
+				9C323B7324912F0A00FBD1B2 /* AppDelegate.swift in Sources */,
+				9C323B872491302600FBD1B2 /* SceneDelegate.swift in Sources */,
+				9C323BA12491438900FBD1B2 /* Assets.swift in Sources */,
+				9C323B9E2491426500FBD1B2 /* ClientAppearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C323B7D24912F0B00FBD1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C323B7E24912F0B00FBD1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C323B8124912F0B00FBD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C323B8224912F0B00FBD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C323B8424912F0B00FBD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KagiiKYCIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sedicii-example.KagiiKYCIntegration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9C323B8524912F0B00FBD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KagiiKYCIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.sedicii-example.KagiiKYCIntegration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C323B6A24912F0A00FBD1B2 /* Build configuration list for PBXProject "KagiiKYCIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C323B8124912F0B00FBD1B2 /* Debug */,
+				9C323B8224912F0B00FBD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C323B8324912F0B00FBD1B2 /* Build configuration list for PBXNativeTarget "KagiiKYCIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C323B8424912F0B00FBD1B2 /* Debug */,
+				9C323B8524912F0B00FBD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C323B6724912F0A00FBD1B2 /* Project object */;
+}

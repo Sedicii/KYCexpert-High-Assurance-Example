@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_ENDPOINT</key>
+	<string></string>
+	<key>API_KEY</key>
+	<string></string>
+	<key>PASSWORD_CONFIRM_NEEDED</key>
+	<true/>
+	<key>CLIENT_ID</key>
+	<string></string>
+	<key>REDIRECT_URI</key>
+	<string></string>
+</dict>
+</plist>
