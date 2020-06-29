@@ -3,3 +3,9 @@ github "Sedicii/KYCExpert-iOS"
 github "Sedicii/Kagii-iOS"
 github "Sedicii/SediciiCoreSDK-iOS"
 github "Sedicii/SediciiZkpSDK-iOS"
+github "Alamofire/Alamofire" ~> 5.2
+github "Alamofire/AlamofireImage" ~> 4.1
+github "tristanhimmelman/ObjectMapper" ~> 4.2
+binary "https://raw.githubusercontent.com/Sedicii/KYCExpert-iOS/master/SocketRocket.framework.json"
+binary "https://raw.githubusercontent.com/Sedicii/KYCExpert-iOS/master/VideoID.framework.json"
+binary "https://raw.githubusercontent.com/Sedicii/KYCExpert-iOS/master/eIDWebRTC.framework.json"
