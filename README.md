@@ -7,11 +7,17 @@
 
 ### Framework Dependencies
 
-- [KYCexpert](https://github.com/Sedicii/KYCExpert-iOS)
 - [Kagii](https://github.com/Sedicii/Kagii-iOS)
   - [SediciiCoreSDK-iOS](https://github.com/Sedicii/SediciiCoreSDK-iOS)
   - [SediciiZkpSDK-iOS](https://github.com/Sedicii/SediciiZkpSDK-iOS)
   - [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)
+- [KYCexpert](https://github.com/Sedicii/KYCExpert-iOS)
+  - [Alamofire](https://github.com/Alamofire/Alamofire)
+  - [AlamofireImage](https://github.com/Alamofire/AlamofireImage)
+  - [ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper)
+  - SocketRocket
+  - VideoID
+  - eIDWebRTC
 
 ### Tool Dependencies
 
